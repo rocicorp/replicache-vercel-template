@@ -1,12 +1,32 @@
-# replicache-todo
+# Replicache Template
 
-A super fast offline-first implementation of [TodoMVC](https://todomvc.com/)
-built with Replicache, Next.js, and Postgres.
+Replicache is a framework for creating realtime multiplayer applications.
 
-The simplest possible starter sample for Replicache.
+Replicache enables:
 
-Intended for customers to clone and start editing.
+* **Realtime collaboration:** Users see each others' changes as they happen, without any reloads.
+* **Instant UI:** The UI responds to changes instantly, without waiting for server round trips. Everything is optimistic, automatically.
+* **Offline resilience:** The application can go offline for short periods of time, and will recover automatically when the network reconnects.
 
-## To get started
+To learn more about Replicache, see [replicache.dev](https://replicache.dev/).
 
-Follow the instructions in the [Replicache Getting Started Guide](https://doc.replicache.dev/).
+This template creates a full Replicache-powered todo list powered by Vercel, Next.js, and [Supabase](https://supabase.com/).
+
+## Install
+
+### Step 1: Create Supabase Project
+
+- Create a new project at [Supabase](https://supabase.com/).
+- **Important:** Don't forget to copy the password you choose to some scratch file. You'll need that later and can't retrieve it after this screen.
+
+### Step 2: Deploy this Template
+
+- When you get to the Replicache integration you'll have to provide the database password you saved in step 1.
+
+## Documentation
+
+You can find the complete Replicache documentation at https://doc.replicache.dev/.
+
+## Get Help
+
+Come say hi on [Discord](https://discord.replicache.dev/). We're happy to help you get setup and answer questions.
