@@ -1,12 +1,12 @@
 # Replicache Vercel Template
 
-Replicache is a framework for creating realtime multiplayer applications.
+Replicache is a framework for creating multiplayer web applications.
 
 Replicache enables:
 
 * **Realtime collaboration:** Users see each others' changes as they happen, without any reloads.
 * **Instant UI:** The UI responds to changes instantly, without waiting for server round trips. Everything is optimistic, automatically.
-* **Offline resilience:** The application can go offline for short periods of time, and will recover automatically when the network reconnects.
+* **Offline resilience:** Applications can go offline for minutes or hours and sync up smoothly when they come back online.
 
 To learn more about Replicache, see [replicache.dev](https://replicache.dev/).
 
